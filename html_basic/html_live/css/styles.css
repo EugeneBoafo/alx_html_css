@@ -15,7 +15,32 @@ header
 header div
 {
    border:1px solid black;
-   height:inherit;
-  
-   
+   /* height:inherit;*/
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 
+
+}
+
+.company-logo 
+{
+    border: 1px solid red;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.company-logo a
+{
+    border: 1px solid green; 
+    width: inherit ;
+    display: flex ;
+    justify-content: center;
+}
+#nav-links 
+{
+    width: 400px;
+}
+#nav-links a
+{
+    border: 1px solid red ;
 }
